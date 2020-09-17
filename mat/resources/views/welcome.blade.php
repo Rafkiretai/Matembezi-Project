@@ -110,7 +110,7 @@
                         <p>Amboseli national park is Kenya’s second most popular game park, after Masai Mara, the Park is home to an abundance of wildlife, including buffalos, leopards, spotted hyenas, giraffes, antelopes and cheetahs.Over 300 bird species can also be spotted in the game park.Nature lovers can explore five different habitats here ranging from the dried-up bed of Lake Amboseli, wetlands with sulphur springs, the savannah and woodlands.  They can also visit the local Maasai community who live around the park and experience their authentic culture.</p>
                         <p><b>Ksh 11,500</b></p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Book Now</a>
+                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                             <p>1 Days & 1 Nights</p>
                             <h2>Mount Longonot National Park</h2>
                         </header>
-                        <p>Rising from the floor of the Great Rift Valley like a monolith is the extinct volcano of Mount Longonot. A unique feature is the thick forest that lies within the crater of the mountain. The crater rim also provides great scenic views across the beautiful Rift Valley all the way to Lake Naivasha. Major wildlife attractions at Mount Longonot include buffaloes, elands, lion, leopard, bushbucks, common zebra, giraffe.</p>
+                        <p>Rising from the floor of the Great Rift Valley like a monolith is the extinct volcano of Mount Longonot. A unique feature is the thick forest that lies within the crater of the mountain. The crater rim also provides great scenic views across the beautiful Rift Valley all the way to Lake Naivasha. Major wildlife attractions at Mount Longonot include buffaloes, elands, lion, leopard, bushbucks.</p>
                         <p><b>Ksh 8,000</b></p>
                         <footer class="align-center">
                             <a href="#" class="button alt">Book Now</a>

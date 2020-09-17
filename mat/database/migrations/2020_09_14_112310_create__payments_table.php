@@ -13,14 +13,13 @@ class CreatePaymentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('_payments', function (Blueprint $table) {
+        Schema::create('payments', function (Blueprint $table) {
             $table->bigIncrements('paymentId');
             $table->string('firstName');
             $table->string('lastName');
             $table->string('email');
             $table->integer('phoneNumber');
-            $table->string('paymentType');
-            $table->double('price');
+            // $table->double('price');
             $table->timestamps();
         });
     }
@@ -32,6 +31,6 @@ class CreatePaymentsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_payments');
+        Schema::dropIfExists('payments');
     }
 }

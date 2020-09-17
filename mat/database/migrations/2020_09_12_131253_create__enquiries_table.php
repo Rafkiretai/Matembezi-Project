@@ -13,7 +13,7 @@ class CreateEnquiriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('_enquiries', function (Blueprint $table) {
+        Schema::create('enquiries', function (Blueprint $table) {
             $table->bigIncrements('enquiryId');
             $table->string('firstName');
             $table->string('lastName');
@@ -30,6 +30,6 @@ class CreateEnquiriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('_enquiries');
+        Schema::dropIfExists('enquiries');
     }
 }
