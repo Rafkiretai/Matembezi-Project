@@ -30,6 +30,14 @@ Route::get('/hotel', function () {
     return view('Hotels');
 });
 
+// enquires view
+Route::get('/enquires', function () {
+    return view('enquires');
+})->name('question');
+
 
 // post payments to the DB
 Route::post('/payment/form', 'paymentsForm@pushForm')->name('mapesa');
+
+//post enquiries to the DB
+Route::post('/enquiries/form','enquiryCont@pushEnquiries')->name('maswali');
