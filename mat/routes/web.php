@@ -30,6 +30,11 @@ Route::get('/hotel', function () {
     return view('Hotels');
 });
 
+// Safari packages view
+Route::get('/safaris', function () {
+    return view('safaris');
+});
+
 // enquires view
 Route::get('/enquires', function () {
     return view('enquires');

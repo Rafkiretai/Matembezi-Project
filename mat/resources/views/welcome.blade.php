@@ -20,7 +20,7 @@
     <ul class="links">
         <li><a href="{{url('/carHire')}}">Car Hire</a></li>
         <li><a href="{{url('/hotel')}}">Book Hotel</a></li>
-        <li><a href="{{url('/')}}">Safari Packages</a></li>
+        <li><a href="{{url('/safaris')}}">Safari Packages</a></li>
         <li><a href="{{url('/enquires')}}">Enquiries</a></li>
     </ul>
 </nav>

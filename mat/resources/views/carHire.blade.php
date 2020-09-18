@@ -2,7 +2,7 @@
 @section('content')
 <link rel="stylesheet" href="assets/css/main.css" />
 <header class="align-center" style="margin-top:100px">
-    <p class="special">Clean and well serviced Car</p>
+    <p class="special">Clean and well serviced Cars</p>
     <h2>Car Hire</h2>
 </header>
 
@@ -14,35 +14,14 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="images/mara.jpg" alt="" />
+                        <img src="images/c1.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>3 Days & 2 Nights</p>
-                            <h2>Maasai Mara National Reserve</h2>
+                            <p>US$ 159 per day including a Professional English-speaking Driver~Guide</p>
+                            <h2>7 Seater Safari Tour Van</h2>
                         </header>
-                        <p>Maasai Mara National Reserve is one of Africa’s leading safari destinations with a mélange of Wildlife and bird species. It is one of the 8 wonders of the world and it’s the arena for the Olympic of wild animals; the great wildebeest migration.
-                            Maasai Mara National reserve is perched peacefully in the Great Rift Valley about 6-hour drive from Nairobi. It makes up a marginal 0.01% of Africa’s total land surface, but it boasts more than 40% of Africa’s large mammals including the Big 5.</p>
-                        <p><b>Ksh 15,000</b></p>
-                        <footer class="align-center">
-                            <a href="#" class="button alt">Book Now</a>
-                        </footer>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="box">
-                    <div class="image fit">
-                        <img src="images/p3.jpg" alt="" />
-                    </div>
-                    <div class="content">
-                        <header class="align-center">
-                            <p>2 Days & 1 Nights</p>
-                            <h2>Amboseli Getaway</h2>
-                        </header>
-                        <p>Amboseli national park is Kenya’s second most popular game park, after Masai Mara, the Park is home to an abundance of wildlife, including buffalos, leopards, spotted hyenas, giraffes, antelopes and cheetahs.Over 300 bird species can also be spotted in the game park.Nature lovers can explore five different habitats here ranging from the dried-up bed of Lake Amboseli, wetlands with sulphur springs, the savannah and woodlands.  They can also visit the local Maasai community who live around the park and experience their authentic culture.</p>
-                        <p><b>Ksh 11,500</b></p>
+                        <p>The Safari Tour Van or Safari Microbus is the most popular choice for safaris in Kenya, preferred for its carrying capacity of upto 7 passengers and lower costs compared to the Landcruiser Safari vehicle ( see below). The Safari Microbus is either a Nissan or Toyota vehicle and comes fitted with a large pop up game viewing roof, UHF radio call, heavy duty suspension and also has large side windows for enhanced all round visibility.</p>
                         <footer class="align-center">
                             <a href="{{url('/payment')}}" class="button alt">Book Now</a>
                         </footer>
@@ -53,17 +32,16 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="images/nak.jpg" alt="" />
+                        <img src="images/c2.jpg" alt=""  />
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>3 Days & 2 Nights</p>
-                            <h2>Lake Nakuru National Park</h2>
+                            <p>US$ 259 per day including a Driver~Guide</p>
+                            <h2>7 Seater 4x4 Toyota Land Cruiser</h2>
                         </header>
-                        <p>“A beautiful wildlife haven” on the floor of the Great Rift Valley, surrounded by wooded and bushy grassland, lies the beautiful Lake Nakuru National Park. Visitors can enjoy the wide ecological diversity and varied habitats that range from Lake Nakuru itself to the surrounding escarpment and picturesque ridges. Lake Nakuru National Park is ideal for bird watching, hiking,picnic and game drives.</p>
-                        <p><b>Ksh 17,500</b></p>
+                        <p>The 4x4 Safari Landcruiser is one of Kenya's best vehicles for a Safari, offering improved comfort and better versatility, allowing tourists to access Safari camps and lodges which may have challenging road conditions or as is the case nowadays, may only allow 4by4 vehicles within their wildlife areas. This vehicle comes fitted with UHF Radio Call, game viewing hatches and additonal safari customization such as cooler boxes to carry drinks.Special rates are available for hire duration exceeding 1 week. </p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Book Now</a>
+                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -72,17 +50,16 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="images/lon.jpg" alt="" />
+                        <img src="images/c3.jpg" alt="" />
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>1 Days & 1 Nights</p>
-                            <h2>Mount Longonot National Park</h2>
+                            <p>US$ 350 per day</p>
+                            <h2>25 to 33 seater Bus - Coaster or Rosa Buses</h2>
                         </header>
-                        <p>Rising from the floor of the Great Rift Valley like a monolith is the extinct volcano of Mount Longonot. A unique feature is the thick forest that lies within the crater of the mountain. The crater rim also provides great scenic views across the beautiful Rift Valley all the way to Lake Naivasha. Major wildlife attractions at Mount Longonot include buffaloes, elands, lion, leopard, bushbucks.</p>
-                        <p><b>Ksh 8,000</b></p>
+                        <p>he Toyota Coaster or Mitsubishi Rosa medium sized buses seat anywhere from 22 to 33 passengers and are ideal for transportation or transfers for groups of passengers. These buses offer comfprtable seats and Air Conditioning as well as large windows for excellent visibility.</p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Book Now</a>
+                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -91,36 +68,16 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="images/hel.jpg" alt="" />
+                        <img src="images/c4.jpg" alt="" height="350" />
                     </div>
                     <div class="content">
                         <header class="align-center">
-                            <p>5 Days & 4 Nights</p>
-                            <h2> Hells Gate National Park</h2>
+                            <p>US$ 500 per day</p>
+                            <h2> 22-25 capacity Overland Safari Trucks</h2>
                         </header>
-                        <p>Named for the intense geothermal activity within its boundaries, the Hell's Gate National Park is a remarkable quarter of the Great Rift Valley. Spectacular scenery including the towering cliffs, water-gouged gorges, stark rock towers, scrub clad volcanoes and belching plumes of geothermal steam make it one of the most atmospheric Parks in Africa. </p>
-                        <p><b>Ksh 20,500</b></p>
+                        <p>Our overland trucks have sufficient storage compartments for luggage and equipment. This 4x4 overland safari trucks are suitable for group budget safari and expeditions in Africa. They are customized for camping tours and have comfortable coach-style seating with wide aisle for leg room and space. </p>
                         <footer class="align-center">
-                            <a href="#" class="button alt">Book Now</a>
-                        </footer>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="box">
-                    <div class="image fit">
-                        <img src="images/mtkenya.jpg" alt="" />
-                    </div>
-                    <div class="content">
-                        <header class="align-center">
-                            <p>10 Days & 9 Nights</p>
-                            <h2>Mount Kenya National Park</h2>
-                        </header>
-                        <p>Climbing to 5,199 meters, Mount Kenya is the second tallest mountain in Africa. The scenery surrounding this designated World Heritage Site is breath-taking. It is pristine wilderness with lakes, tarns, glaciers, dense forest, mineral springs and a selection of rare and endangered species of animals, high altitude adapted plains game and unique montane and alpine vegetation.</p>
-                        <p><b>Ksh 35,000</b></p>
-                        <footer class="align-center">
-                            <a href="#" class="button alt">Book Now</a>
+                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
