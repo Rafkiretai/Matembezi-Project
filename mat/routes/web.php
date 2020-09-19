@@ -40,9 +40,18 @@ Route::get('/enquires', function () {
     return view('enquires');
 })->name('question');
 
+// view payments
+Route::get('/viewpayments', function () {
+    return view('viewpayments');
+});
+
 
 // post payments to the DB
 Route::post('/payment/form', 'paymentsForm@pushForm')->name('mapesa');
 
 //post enquiries to the DB
 Route::post('/enquiries/form','enquiryCont@pushEnquiries')->name('maswali');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

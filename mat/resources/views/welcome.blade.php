@@ -22,6 +22,16 @@
         <li><a href="{{url('/hotel')}}">Book Hotel</a></li>
         <li><a href="{{url('/safaris')}}">Safari Packages</a></li>
         <li><a href="{{url('/enquires')}}">Enquiries</a></li>
+        @if (Route::has('login'))      
+            @auth
+                @else    
+                     <li><a href="{{ route('login') }}">Admin Login</a></li>
+
+                     @if (Route::has('register'))
+                       <!-- <li><a href="{{ route('register') }}">Admin Register</a></li> -->
+                 @endif
+             @endauth   
+         @endif      
     </ul>
 </nav>
 
@@ -100,7 +110,7 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="images/p3.jpg" alt="" />
+                        <img src="images/p3.jpg" alt="" height="350"/>
                     </div>
                     <div class="content">
                         <header class="align-center">
@@ -138,7 +148,7 @@
             <div>
                 <div class="box">
                     <div class="image fit">
-                        <img src="images/lon.jpg" alt="" />
+                        <img src="images/lon.jpg" alt="" height="320"/>
                     </div>
                     <div class="content">
                         <header class="align-center">
