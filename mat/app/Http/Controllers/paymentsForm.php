@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\payments;
+use DB;
 
 class paymentsForm extends Controller
 {
@@ -18,4 +19,17 @@ class paymentsForm extends Controller
     return redirect()->route('malipo')->withSuccess(['Booking Successful!!']);
 
     }
+
+    public function pullPayments()
+    {
+        $payments= DB::select('select * from payments');
+        return view('viewpayments', ['payments'=>$payments]);
+    }
+
+    public function deletePayments($paymentId)
+    {
+        DB::delete('delete from payments where paymentId =?',[$paymentId]);
+        return redirect()->route('vuta')->withSuccess(['Payment has been Deleted Successfully👍🏿']);
+    }
+
 }

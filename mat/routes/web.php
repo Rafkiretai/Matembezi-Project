@@ -40,10 +40,6 @@ Route::get('/enquires', function () {
     return view('enquires');
 })->name('question');
 
-// view payments
-Route::get('/viewpayments', function () {
-    return view('viewpayments');
-});
 
 
 // post payments to the DB
@@ -52,6 +48,13 @@ Route::post('/payment/form', 'paymentsForm@pushForm')->name('mapesa');
 //post enquiries to the DB
 Route::post('/enquiries/form','enquiryCont@pushEnquiries')->name('maswali');
 
+//pulling payments from DB
+Route::get('/viewpayments','paymentsForm@pullPayments')->name('vuta');
+
+//delete payment
+Route::get('/viewpayments/click_delete/{id}', 'paymentsForm@deletePayments')->name('futa');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
