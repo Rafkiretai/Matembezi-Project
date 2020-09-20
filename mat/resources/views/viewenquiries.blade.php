@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Payments</title>
+  <title>Enquiries</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -34,7 +34,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Payments</h3>
+                <h3 class="card-title">Enquiries</h3>
 
                 <div class="card-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">
@@ -48,35 +48,35 @@
               </div>
               <!-- /.card-header -->
               <!-- Success Message -->
-										@if(session()->has('success'))
-										  <div class="alert">
-											<ul>
-												@foreach(session()->get('success') as $message)
-													<li>
-														{{$message}}
-													</li>
-												@endforeach
+					@if(session()->has('success'))
+							<div class="alert">
+								<ul>
+								@foreach(session()->get('success') as $message)
+								    <li>
+										{{$message}}
+									</li>
+								@endforeach
                      @endif
               <div class="card-body table-responsive p-0">
                 <table class="table table-hover text-nowrap">
                   <thead>
                     <tr>
-                      <th>Payment ID</th>
+                      <th>Enquiry ID</th>
                       <th>First Name</th>
                       <th>Last Name</th>
-                      <th>Email</th>
                       <th>Phone Number</th>
+                      <th>Enquiry</th>
                     </tr>
                   </thead>
                   <tbody>
-                  @foreach ($payments as $row)
+                  @foreach ($enquiries as $row)
                     <tr>
-                      <td>{{$row->paymentId}}</td>
+                      <td>{{$row->enquiryId}}</td>
                       <td>{{$row->firstName}}</td>
                       <td>{{$row->lastName}}</td>
-                      <td>{{$row->email}}</td>
                       <td>{{$row->phoneNumber}}</td>
-                      <td><a href= "viewpayments/click_delete/{{ $row->paymentId }} " class="button alt">Delete</a></td>
+                      <td>{{$row->enquiry}}</td>
+                      <td><a href= "viewenquiries/click_delete/{{ $row->enquiryId }} " class="button alt">Delete</a></td>
                     </tr>
                   @endforeach
                   </tbody>

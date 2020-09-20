@@ -16,7 +16,7 @@ class paymentsForm extends Controller
         $money->phoneNumber = request('phonenumber');
         // $money->paymentType = request('paymentType');
         $money->save();
-    return redirect()->route('malipo')->withSuccess(['Booking Successful!!']);
+    return redirect()->route('malipo')->withSuccess(['Booking Successful!!👍🏿']);
 
     }
 

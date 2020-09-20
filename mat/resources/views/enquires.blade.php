@@ -38,6 +38,16 @@
                 <h3 class="card-title">Enquires</h3>
               </div>
               <!-- /.card-header -->
+              <!-- Success Message -->
+										@if(session()->has('success'))
+										  <div class="alert">
+											<ul>
+												@foreach(session()->get('success') as $message)
+													<li>
+														{{$message}}
+													</li>
+												@endforeach
+                     @endif
                
               <!-- form start -->
               <form role="form" action="{{ route('maswali') }}" method="POST">

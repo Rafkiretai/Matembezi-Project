@@ -48,11 +48,22 @@ Route::post('/payment/form', 'paymentsForm@pushForm')->name('mapesa');
 //post enquiries to the DB
 Route::post('/enquiries/form','enquiryCont@pushEnquiries')->name('maswali');
 
+
 //pulling payments from DB
 Route::get('/viewpayments','paymentsForm@pullPayments')->name('vuta');
 
+//pulling enquiries from DB
+Route::get('/viewenquiries','enquiryCont@pullEnquiries')->name('noma');
+
+
+
 //delete payment
 Route::get('/viewpayments/click_delete/{id}', 'paymentsForm@deletePayments')->name('futa');
+
+//delete Enquiry
+Route::get('/viewenquiries/click_delete/{id}', 'enquiryCont@deleteEnquiries')->name('rusha');
+
+
 
 Auth::routes();
 
