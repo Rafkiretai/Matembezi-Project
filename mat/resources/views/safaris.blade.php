@@ -24,7 +24,7 @@
                         <p>A very special safari from the foot of mount Kilimanjaro, amboseli national park, to rough waters, lake naivasha to dotted or spotted plains, the famous maasai mara national reserve and to dusty or salted lake nakuru national park, you will be joined and accompanied by Tazama Africa holidays safari driver guide upon your arrival and throughout your safari.</p>
                         <p><b>Ksh 40,000</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         <p>Stay in elegant accommodation and dine on tasty African inspired meals under the star strewn sky. Enjoy memorable wildlife encounters on your East African safari in the company of expert local guides who will track the animals and help you to spot some of the predators such as lion, cheetah and hyena that call this region home.</p>
                         <p><b>Ksh 35,500</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         <p>Lewa serves as a safe refuge for the critically endangered black rhino and the endangered Grevy’s zebra, as well as the elephant, lion, giraffe, wild dog and other iconic wildlife species in Kenya. The Conservancy is also home to more than 400 species of birds.Lewa has combined the techniques of world-class anti-poaching operations, including cutting edge monitoring technology, with the engagement of the surrounding communities as critical partners in conservation.</p>
                         <p><b>Ksh 17,500</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <p>"Green Hills of Africa".Verdant rolling hills of endless green, great blue skies and spectacular landscape views are what the Chyulu Hills provide to nature lovers. Large mammals include buffalo, bushbucks, elands, elephants, leopards, giant forest hogs, bush pigs, reedbucks and giraffes along with various reptiles and insects. Horse riding, camping, mountain climbing and bird watching can be enjoyed in this hidden part of paradise.</p>
                         <p><b>Ksh 10,000</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>

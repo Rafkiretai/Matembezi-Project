@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Payments</title>
+  <title>Bookings</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -34,7 +34,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Payments</h3>
+                <h3 class="card-title">Bookings</h3>
 
                 <div class="card-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">
@@ -61,7 +61,7 @@
                 <table class="table table-hover text-nowrap">
                   <thead>
                     <tr>
-                      <th>Payment ID</th>
+                      <th>Booking ID</th>
                       <th>First Name</th>
                       <th>Last Name</th>
                       <th>Email</th>

@@ -1,11 +1,12 @@
 @extends('layouts.black')
+
 @section('content')
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Booking Payment</title>
+    <title>Add Car</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,48 +36,48 @@
             <!-- general form elements -->
             <div class="card card-primary" >
               <div class="card-header">
-                <h3 class="card-title">Enquires</h3>
+                <h3 class="card-title">Add Car</h3>
               </div>
               <!-- /.card-header -->
-              <!-- Success Message -->
-										@if(session()->has('success'))
-										  <div class="alert">
-											<ul>
-												@foreach(session()->get('success') as $message)
-													<li>
-														{{$message}}
-													</li>
-												@endforeach
+               <!-- Success Message -->
+					@if(session()->has('success'))
+						<div class="alert">
+							<ul>
+							    @foreach(session()->get('success') as $message)
+								<li>
+							    	{{$message}}
+								</li>
+								@endforeach
                      @endif
                
               <!-- form start -->
-              <form role="form" action="{{ route('maswali') }}" method="POST">
+              <form role="form" action="{{ route('mapesa') }}" method="POST">
               @csrf
                   <div class="form-group">
-                      <label for="firstname">First Name *</label>
-                      <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Enter your first name" required>
+                      <label for="registration">Registration No. *</label>
+                      <input type="text" class="form-control" name="registration" id="registration" placeholder="Enter the registration number of the car" required>
                   </div>
 
                   <div class="form-group">
-                      <label for="lastname">Last Name *</label>
-                      <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Enter your last name" required>
+                      <label for="capacity">Capacity *</label>
+                      <input type="text" class="form-control" name="capacity" id="capacity" placeholder="Enter the capacity number of the car" required>
                   </div>
 
                   <div class="form-group">
-                      <label for="phonenumber">Phone Number *</label>
-                      <input type="text" class="form-control"name="phonenumber" id="phonenumber" placeholder="Enter your phone number" required>
+                    <label for="description">Description *</label>
+                    <textarea rows = "5" cols = "40" name = "description" placeholder = "Enter a description for the car" required></textarea>
                   </div>
 
                   <div class="form-group">
-                    <label for="enquiry">Enquiry *</label>
-                    <textarea rows = "5" cols = "40" name = "enquiry" placeholder = "Enter any enquiries you might be having..." required></textarea>
+                      <label for="price">Booking Charge *</label>
+                      <input type="text" class="form-control"name="price" id="price" placeholder="Enter the booking charge of the car" required>
                   </div>
 
                 </div>
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Add</button>
                 </div>
               </form>
               </div>

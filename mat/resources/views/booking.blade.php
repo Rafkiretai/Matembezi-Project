@@ -1,11 +1,12 @@
 @extends('layouts.black')
+
 @section('content')
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Booking Payment</title>
+    <title>Booking</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,22 +36,22 @@
             <!-- general form elements -->
             <div class="card card-primary" >
               <div class="card-header">
-                <h3 class="card-title">Enquires</h3>
+                <h3 class="card-title">Booking</h3>
               </div>
               <!-- /.card-header -->
-              <!-- Success Message -->
+               <!-- Success Message -->
 										@if(session()->has('success'))
-										  <div class="alert">
+										<div class="alert">
 											<ul>
 												@foreach(session()->get('success') as $message)
 													<li>
 														{{$message}}
 													</li>
 												@endforeach
-                     @endif
+                                                @endif
                
               <!-- form start -->
-              <form role="form" action="{{ route('maswali') }}" method="POST">
+              <form role="form" action="{{ route('mapesa') }}" method="POST">
               @csrf
                   <div class="form-group">
                       <label for="firstname">First Name *</label>
@@ -63,13 +64,13 @@
                   </div>
 
                   <div class="form-group">
-                      <label for="phonenumber">Phone Number *</label>
-                      <input type="text" class="form-control"name="phonenumber" id="phonenumber" placeholder="Enter your phone number" required>
+                    <label for="email">Email Address *</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email address" required>
                   </div>
 
                   <div class="form-group">
-                    <label for="enquiry">Enquiry *</label>
-                    <textarea rows = "5" cols = "40" name = "enquiry" placeholder = "Enter any enquiries you might be having..." required></textarea>
+                      <label for="phonenumber">Phone Number *</label>
+                      <input type="text" class="form-control"name="phonenumber" id="phonenumber" placeholder="Enter your phone number" required>
                   </div>
 
                 </div>

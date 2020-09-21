@@ -101,7 +101,7 @@
                             Maasai Mara National reserve is perched peacefully in the Great Rift Valley about 6-hour drive from Nairobi. It makes up a marginal 0.01% of Africa’s total land surface, but it boasts more than 40% of Africa’s large mammals including the Big 5.</p>
                         <p><b>Ksh 15,000</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                         <p>Amboseli national park is Kenya’s second most popular game park, after Masai Mara, the Park is home to an abundance of wildlife, including buffalos, leopards, spotted hyenas, giraffes, antelopes and cheetahs.Over 300 bird species can also be spotted in the game park.Nature lovers can explore five different habitats here ranging from the dried-up bed of Lake Amboseli, wetlands with sulphur springs, the savannah and woodlands.  They can also visit the local Maasai community who live around the park and experience their authentic culture.</p>
                         <p><b>Ksh 11,500</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <p>“A beautiful wildlife haven” on the floor of the Great Rift Valley, surrounded by wooded and bushy grassland, lies the beautiful Lake Nakuru National Park. Visitors can enjoy the wide ecological diversity and varied habitats that range from Lake Nakuru itself to the surrounding escarpment and picturesque ridges. Lake Nakuru National Park is ideal for bird watching, hiking,picnic and game drives.</p>
                         <p><b>Ksh 17,500</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                         <p>Rising from the floor of the Great Rift Valley like a monolith is the extinct volcano of Mount Longonot. A unique feature is the thick forest that lies within the crater of the mountain. The crater rim also provides great scenic views across the beautiful Rift Valley all the way to Lake Naivasha. Major wildlife attractions at Mount Longonot include buffaloes, elands, lion, leopard, bushbucks.</p>
                         <p><b>Ksh 8,000</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                         <p>Named for the intense geothermal activity within its boundaries, the Hell's Gate National Park is a remarkable quarter of the Great Rift Valley. Spectacular scenery including the towering cliffs, water-gouged gorges, stark rock towers, scrub clad volcanoes and belching plumes of geothermal steam make it one of the most atmospheric Parks in Africa. </p>
                         <p><b>Ksh 20,500</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                         <p>Climbing to 5,199 meters, Mount Kenya is the second tallest mountain in Africa. The scenery surrounding this designated World Heritage Site is breath-taking. It is pristine wilderness with lakes, tarns, glaciers, dense forest, mineral springs and a selection of rare and endangered species of animals, high altitude adapted plains game and unique montane and alpine vegetation.</p>
                         <p><b>Ksh 35,000</b></p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>

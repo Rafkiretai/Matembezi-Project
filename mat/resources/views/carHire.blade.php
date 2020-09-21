@@ -23,7 +23,7 @@
                         </header>
                         <p>The Safari Tour Van or Safari Microbus is the most popular choice for safaris in Kenya, preferred for its carrying capacity of upto 7 passengers and lower costs compared to the Landcruiser Safari vehicle ( see below). The Safari Microbus is either a Nissan or Toyota vehicle and comes fitted with a large pop up game viewing roof, UHF radio call, heavy duty suspension and also has large side windows for enhanced all round visibility.</p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         </header>
                         <p>The 4x4 Safari Landcruiser is one of Kenya's best vehicles for a Safari, offering improved comfort and better versatility, allowing tourists to access Safari camps and lodges which may have challenging road conditions or as is the case nowadays, may only allow 4by4 vehicles within their wildlife areas. This vehicle comes fitted with UHF Radio Call, game viewing hatches and additonal safari customization such as cooler boxes to carry drinks.Special rates are available for hire duration exceeding 1 week. </p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         </header>
                         <p>he Toyota Coaster or Mitsubishi Rosa medium sized buses seat anywhere from 22 to 33 passengers and are ideal for transportation or transfers for groups of passengers. These buses offer comfprtable seats and Air Conditioning as well as large windows for excellent visibility.</p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         </header>
                         <p>Our overland trucks have sufficient storage compartments for luggage and equipment. This 4x4 overland safari trucks are suitable for group budget safari and expeditions in Africa. They are customized for camping tours and have comfortable coach-style seating with wide aisle for leg room and space. </p>
                         <footer class="align-center">
-                            <a href="{{url('/payment')}}" class="button alt">Book Now</a>
+                            <a href="{{url('/booking')}}" class="button alt">Book Now</a>
                         </footer>
                     </div>
                 </div>

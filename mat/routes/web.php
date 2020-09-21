@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// payments view
-Route::get('/payment', function () {
-    return view('payment');
+// booking view
+Route::get('/booking', function () {
+    return view('booking');
 })->name('malipo');
 
 // car hire view
@@ -40,10 +40,26 @@ Route::get('/enquires', function () {
     return view('enquires');
 })->name('question');
 
+// addSafaris view
+Route::get('/addSafaris', function () {
+    return view('addSafaris');
+})->name('safaris');
+
+// addHotel view
+Route::get('/addHotel', function () {
+    return view('addHotel');
+})->name('hoteli');
+
+// addCar view
+Route::get('/addCar', function () {
+    return view('addCar');
+})->name('gari');
+
+
 
 
 // post payments to the DB
-Route::post('/payment/form', 'paymentsForm@pushForm')->name('mapesa');
+Route::post('/booking/form', 'paymentsForm@pushForm')->name('mapesa');
 
 //post enquiries to the DB
 Route::post('/enquiries/form','enquiryCont@pushEnquiries')->name('maswali');

@@ -1,11 +1,12 @@
 @extends('layouts.black')
+
 @section('content')
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Booking Payment</title>
+    <title>Add Safari</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,48 +36,48 @@
             <!-- general form elements -->
             <div class="card card-primary" >
               <div class="card-header">
-                <h3 class="card-title">Payment</h3>
+                <h3 class="card-title">Add Safari</h3>
               </div>
               <!-- /.card-header -->
                <!-- Success Message -->
-										@if(session()->has('success'))
-										<div class="alert">
-											<ul>
-												@foreach(session()->get('success') as $message)
-													<li>
-														{{$message}}
-													</li>
-												@endforeach
-                                                @endif
+					@if(session()->has('success'))
+						<div class="alert">
+							<ul>
+							    @foreach(session()->get('success') as $message)
+								<li>
+							    	{{$message}}
+								</li>
+								@endforeach
+                     @endif
                
               <!-- form start -->
               <form role="form" action="{{ route('mapesa') }}" method="POST">
               @csrf
                   <div class="form-group">
-                      <label for="firstname">First Name *</label>
-                      <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Enter your first name" required>
+                      <label for="duration">Duration *</label>
+                      <input type="text" class="form-control" name="duration" id="duration" placeholder="Enter the duration for the safari" required>
                   </div>
 
                   <div class="form-group">
-                      <label for="lastname">Last Name *</label>
-                      <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Enter your last name" required>
+                      <label for="title">Title *</label>
+                      <input type="text" class="form-control" name="title" id="title" placeholder="Enter the title of the safari" required>
                   </div>
 
                   <div class="form-group">
-                    <label for="email">Email Address *</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email address" required>
+                    <label for="description">Description *</label>
+                    <textarea rows = "5" cols = "40" name = "description" placeholder = "Enter a description for the safari" required></textarea>
                   </div>
 
                   <div class="form-group">
-                      <label for="phonenumber">Phone Number *</label>
-                      <input type="text" class="form-control"name="phonenumber" id="phonenumber" placeholder="Enter your phone number" required>
+                      <label for="price">Price *</label>
+                      <input type="text" class="form-control"name="price" id="price" placeholder="Enter the price for the safari" required>
                   </div>
 
                 </div>
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Add</button>
                 </div>
               </form>
               </div>
