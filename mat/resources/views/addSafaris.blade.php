@@ -51,7 +51,7 @@
                      @endif
                
               <!-- form start -->
-              <form role="form" action="{{ route('mapesa') }}" method="POST">
+              <form role="form" action="{{ route('safiri') }}" method="POST">
               @csrf
                   <div class="form-group">
                       <label for="duration">Duration *</label>
@@ -73,7 +73,14 @@
                       <input type="text" class="form-control"name="price" id="price" placeholder="Enter the price for the safari" required>
                   </div>
 
+                  <div class="custom-file">
+                  <label>Photo</label>
+                      <input type="file" class="custom-file-input" name="photo" id="customFile">
+                      <label class="custom-file-label" for="customFile">Upload Photo</label>
+                    </div>
+
                 </div>
+                
                 <!-- /.card-body -->
 
                 <div class="card-footer">

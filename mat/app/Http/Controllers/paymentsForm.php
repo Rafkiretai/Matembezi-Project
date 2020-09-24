@@ -14,18 +14,18 @@ class paymentsForm extends Controller
         $money->lastName = request('lastname');
         $money->email = request('email');
         $money->phoneNumber = request('phonenumber');
-        // $money->paymentType = request('paymentType');
         $money->save();
     return redirect()->route('malipo')->withSuccess(['Booking Successful!!👍🏿']);
 
     }
-
+    //pull bookings from DB
     public function pullPayments()
     {
         $payments= DB::select('select * from payments');
         return view('viewpayments', ['payments'=>$payments]);
     }
 
+    //Delete function
     public function deletePayments($paymentId)
     {
         DB::delete('delete from payments where paymentId =?',[$paymentId]);

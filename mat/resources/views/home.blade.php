@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Admin Home</title>
+  <title>Admin</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -35,21 +35,21 @@
 
 <div class="small-box bg-info">
               <div class="inner">
-                <h3>Payments</h3>
+                <h3>Bookings</h3>
 
-                <p>Booking Payments</p>
+                <p>Customer Bookings </p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="{{url('/viewpayments')}}" class="small-box-footer">View Payments <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('/viewpayments')}}" class="small-box-footer">View Bookings <i class="fas fa-arrow-circle-right"></i></a>
             </div>
             </div>
           </div>
           <!-- ./col -->
 
             <!-- small box -->
-            <div class="small-box bg-success">
+          <div class="small-box bg-success">
               <div class="inner">
                 <h3>Enquiries<sup style="font-size: 20px"></sup></h3>
 
@@ -63,37 +63,53 @@
           </div>
           <!-- ./col -->
        
-            <!-- small box -->
-            <div class="small-box bg-warning">
+           <!-- small box -->
+           <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3>Safari</h3>
 
-                <p>User Registrations</p>
+                <p>Add Safari</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('/addSafaris')}}" class="small-box-footer">Add<i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
       
-            <!-- small box -->
-            <div class="small-box bg-danger">
+          <!-- small box -->
+          <div class="small-box bg-warning">
               <div class="inner">
-                <h3>65</h3>
+                <h3>Hotel</h3>
 
-                <p>Unique Visitors</p>
+                <p>Add Hotel</p>
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="ion ion-person-add"></i>
               </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('/addHotel')}}" class="small-box-footer">Add<i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
         </div>
-        !-- jQuery -->
+
+        <!-- small box -->
+          <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>Car for Hire</h3>
+
+                <p>Add Car for Hire </p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="{{url('/addCar')}}" class="small-box-footer">Add<i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+         </div>
+       
+<!-- js -->
+
 <script src="../../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

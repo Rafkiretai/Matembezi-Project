@@ -18,13 +18,14 @@ class enquiryCont extends Controller
     return redirect()->route('question')->withSuccess(['Sent Successfully!!👍🏿']);
 
     }
-
+    //pull enquiries from DB
     public function pullEnquiries()
     {
         $enquiries= DB::select('select * from enquiries');
         return view('viewenquiries', ['enquiries'=>$enquiries]);
     }
 
+    //delete enquiries function
     public function deleteEnquiries($enquiryId)
     {
         DB::delete('delete from enquiries where enquiryId =?',[$enquiryId]);

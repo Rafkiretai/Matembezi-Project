@@ -1,4 +1,5 @@
 @extends('layouts.black')
+
 @section('content')
 <link rel="stylesheet" href="assets/css/main.css" />
 <header class="align-center" style="margin-top:100px">
@@ -6,7 +7,7 @@
     <h2>Safari Packages</h2>
 </header>
 
-<!-- One -->
+<!-- body -->
 <section id="one" class="wrapper style2">
     <div class="inner">
         <div class="grid-style">

@@ -17,8 +17,9 @@ class CreateDestinationsTable extends Migration
             $table->bigIncrements('destinationId');
             $table->string('title');
             $table->text('description');
-            $table->string('Location');
+            $table->string('duration');
             $table->double('price');
+            $table->binary('photo');
             $table->timestamps();
         });
     }

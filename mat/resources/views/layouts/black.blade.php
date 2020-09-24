@@ -1,3 +1,4 @@
+<!-- customized layout -->
 <head>
     <title>Matembezi Adventures</title>
     <meta charset="utf-8" />
@@ -6,7 +7,6 @@
     
 </head>
 <!-- Header -->
-
 <header id="header" class="alt" style ="background: #000;">
     <div class="logo"><a href="{{url('/')}}">Matembezi</a></div>
     <a href="{{url('/')}}">Home</a>

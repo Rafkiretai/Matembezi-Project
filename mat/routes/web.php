@@ -57,12 +57,21 @@ Route::get('/addCar', function () {
 
 
 
-
-// post payments to the DB
+// post bookings to the DB
 Route::post('/booking/form', 'paymentsForm@pushForm')->name('mapesa');
 
 //post enquiries to the DB
 Route::post('/enquiries/form','enquiryCont@pushEnquiries')->name('maswali');
+
+//add Safaris
+Route::post('/addSafaris/form','addsafarisCont@pushSafaris')->name('safiri');
+
+//add hotel
+Route::post('/addHotel/form','addhotelCont@pushhotel')->name('dishi');
+
+//add car
+Route::post('/addCar/form','addcarCont@pushCars')->name('dinga');
+
 
 
 //pulling payments from DB
@@ -70,6 +79,9 @@ Route::get('/viewpayments','paymentsForm@pullPayments')->name('vuta');
 
 //pulling enquiries from DB
 Route::get('/viewenquiries','enquiryCont@pullEnquiries')->name('noma');
+
+// pull safaris from DB
+Route::get('/safaris','addsafarisCont@pullSafaris')->name('tembea');
 
 
 
@@ -80,7 +92,7 @@ Route::get('/viewpayments/click_delete/{id}', 'paymentsForm@deletePayments')->na
 Route::get('/viewenquiries/click_delete/{id}', 'enquiryCont@deleteEnquiries')->name('rusha');
 
 
-
+//Auth routes
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

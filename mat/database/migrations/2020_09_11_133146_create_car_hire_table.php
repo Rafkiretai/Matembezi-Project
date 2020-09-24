@@ -13,11 +13,13 @@ class CreateCarHireTable extends Migration
      */
     public function up()
     {
-        Schema::create('car_hire', function (Blueprint $table) {
+        Schema::create('car_hires', function (Blueprint $table) {
             $table->bigIncrements('fleetNo');
-            $table->integer('registrationNo')->unique();
-            $table->integer('capacity');
-            $table->integer('bookingCharge');
+            $table->string('registrationNo');
+            $table->string('capacity');
+            $table->text('description');
+            $table->string('bookingCharge');
+            $table->binary('photo');
             $table->timestamps();
         });
     }

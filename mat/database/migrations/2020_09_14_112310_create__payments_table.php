@@ -19,7 +19,6 @@ class CreatePaymentsTable extends Migration
             $table->string('lastName');
             $table->string('email');
             $table->integer('phoneNumber');
-            // $table->double('price');
             $table->timestamps();
         });
     }
