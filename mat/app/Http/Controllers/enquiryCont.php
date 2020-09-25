@@ -12,6 +12,7 @@ class enquiryCont extends Controller
         $ques =  new enquiries();
         $ques->firstName = request('firstname');
         $ques->lastName = request('lastname');
+        $ques->email = request('email');
         $ques->phoneNumber = request('phonenumber');
         $ques->enquiry = request('enquiry');
         $ques->save();

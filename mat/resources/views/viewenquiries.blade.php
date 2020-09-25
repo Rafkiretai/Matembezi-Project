@@ -64,6 +64,7 @@
                       <th>Enquiry ID</th>
                       <th>First Name</th>
                       <th>Last Name</th>
+                      <th>Email</th>
                       <th>Phone Number</th>
                       <th>Enquiry</th>
                     </tr>
@@ -74,6 +75,7 @@
                       <td>{{$row->enquiryId}}</td>
                       <td>{{$row->firstName}}</td>
                       <td>{{$row->lastName}}</td>
+                      <td>{{$row->email}}</td>
                       <td>{{$row->phoneNumber}}</td>
                       <td>{{$row->enquiry}}</td>
                       <td><a href= "viewenquiries/click_delete/{{ $row->enquiryId }} " class="button alt">Delete</a></td>

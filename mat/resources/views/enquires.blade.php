@@ -18,20 +18,15 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition sidebar-mini">
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-          
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-    <section class="content">
+
+    <!--content -->
+  <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <!-- left column -->
+        
+          <!-- Centering container -->
           <div class="col-md-6" style="margin-left:300px;margin-top:100px;margin-bottom:50px">
+
             <!-- general form elements -->
             <div class="card card-primary" >
               <div class="card-header">
@@ -60,6 +55,11 @@
                   <div class="form-group">
                       <label for="lastname">Last Name *</label>
                       <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Enter your last name" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email address" required>
                   </div>
 
                   <div class="form-group">

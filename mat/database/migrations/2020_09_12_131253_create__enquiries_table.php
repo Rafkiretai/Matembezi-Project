@@ -17,6 +17,7 @@ class CreateEnquiriesTable extends Migration
             $table->bigIncrements('enquiryId');
             $table->string('firstName');
             $table->string('lastName');
+            $table->string('email');
             $table->integer('phoneNumber');
             $table->text('enquiry');
             $table->timestamps();

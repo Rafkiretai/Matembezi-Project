@@ -14,7 +14,7 @@ class enquiries extends Model
      *
      * @var array
      */
-    protected $fillable = ['firstName','lastName','phoneNumber','enquiry',];
+    protected $fillable = ['firstName','lastName','email','phoneNumber','enquiry',];
 }
 
 

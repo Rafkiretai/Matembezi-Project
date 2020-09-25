@@ -2,10 +2,9 @@
 <head>
     <title>Matembezi Adventures</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
 </head>
+
 <!-- Header -->
 <header id="header" class="alt" style ="background: #000;">
     <div class="logo"><a href="{{url('/')}}">Matembezi</a></div>

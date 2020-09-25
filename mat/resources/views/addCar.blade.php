@@ -19,36 +19,32 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
-<body class="hold-transition sidebar-mini">
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-          
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
+
+    <!--content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <!-- left column -->
+        
+          <!-- Centering container -->
           <div class="col-md-6" style="margin-left:300px;margin-top:100px;margin-bottom:50px">
+
             <!-- general form elements -->
             <div class="card card-primary" >
               <div class="card-header">
                 <h3 class="card-title">Add Car</h3>
               </div>
               <!-- /.card-header -->
+
                <!-- Success Message -->
 					@if(session()->has('success'))
 						<div class="alert">
 							<ul>
-							    @foreach(session()->get('success') as $message)
+						 @foreach(session()->get('success') as $message)
 								<li>
 							    	{{$message}}
 								</li>
-								@endforeach
-                     @endif
+							@endforeach
+           @endif
                
               <!-- form start -->
               <form role="form" action="{{ route('dinga') }}" method="POST">
@@ -90,6 +86,7 @@
               </div>
             </div>
             <!-- /.card -->
+            
               <!-- jQuery -->
               <script src="{{ asset('../../plugins/jquery/jquery.min.js')}}"></script>
               <!-- Bootstrap 4 -->

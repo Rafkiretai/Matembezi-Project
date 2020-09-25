@@ -33,7 +33,7 @@
 
 <!-- small box -->
 
-<div class="small-box bg-info">
+         <div class="small-box bg-info">
               <div class="inner">
                 <h3>Bookings</h3>
 
@@ -45,7 +45,7 @@
               <a href="{{url('/viewpayments')}}" class="small-box-footer">View Bookings <i class="fas fa-arrow-circle-right"></i></a>
             </div>
             </div>
-          </div>
+        </div>
           <!-- ./col -->
 
             <!-- small box -->

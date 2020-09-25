@@ -6,7 +6,7 @@
     <h2>Car Hire</h2>
 </header>
 
-<!-- One -->
+
 <section id="one" class="wrapper style2">
     <div class="inner">
         <div class="grid-style">
