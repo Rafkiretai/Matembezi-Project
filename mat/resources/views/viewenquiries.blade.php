@@ -84,9 +84,7 @@
                   </tbody>
                 </table>
               </div>
-              <!-- /.card-body -->
             </div>
-            <!-- /.card -->
           </div>
         </div>
         
